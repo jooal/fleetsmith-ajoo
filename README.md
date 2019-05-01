@@ -1,3 +1,16 @@
+## Pups Dot Com
+This is a React.js app created for Fleetsmith for the Front End Enginer position. 
+
+## Tech Used
+* npm i react-image-lightbox
+* npm i axios
+* npm i bootstrap
+* Giphy API https://developers.giphy.com/
+
+On load the webpage will load a page of Gif's. The user can click on the Gif's and navigate to the next or previous Gif, displayed in a Lightbox. 
+
+Video: https://drive.google.com/file/d/1RaRDFYa6EHRT72C9sVh5aNWBB4OEPPt-/view
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
