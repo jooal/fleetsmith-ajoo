@@ -1,0 +1,39 @@
+
+
+*, *:before, *:after { box-sizing: border-box; }
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: helvetica;
+  position: relative;
+  font-size: 100%;
+  background: #D1913C;
+  background: -webkit-linear-gradient(to right, #FFD194, #D1913C);
+  background: linear-gradient(to right, #FFD194, #D1913C);
+}
+.gallery-container {
+  padding: .9375rem 0;
+}
+.gallery-container h1 {
+  margin: 2rem 0;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 6.5vw;
+  font-weight: lighter;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 8px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
+
