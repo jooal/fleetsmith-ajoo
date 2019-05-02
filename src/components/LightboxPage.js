@@ -4,6 +4,8 @@ import Lightbox from "react-image-lightbox";
 import "../styles/LightboxPage.css";
 import API from "../utils/API";
 
+//note: should be a LightboxPage.test.js to test React component 
+
 class LightboxPage extends React.Component {
 state = {
   photoIndex: 30,
